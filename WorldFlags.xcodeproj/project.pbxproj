@@ -13,6 +13,9 @@
 		E918FBB427186E1D00CF1CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E918FBB227186E1D00CF1CF2 /* Main.storyboard */; };
 		E918FBB627186E1F00CF1CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E918FBB527186E1F00CF1CF2 /* Assets.xcassets */; };
 		E918FBB927186E1F00CF1CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E918FBB727186E1F00CF1CF2 /* LaunchScreen.storyboard */; };
+		E918FBC1271878BE00CF1CF2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918FBC0271878BE00CF1CF2 /* DetailViewController.swift */; };
+		E918FBC82718BDD000CF1CF2 /* FlagNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = E918FBC72718BDD000CF1CF2 /* FlagNames.plist */; };
+		E918FBCA2719DCBE00CF1CF2 /* CountryNameCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E918FBC92719DCBE00CF1CF2 /* CountryNameCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E918FBB527186E1F00CF1CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E918FBB827186E1F00CF1CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E918FBBA27186E1F00CF1CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E918FBC0271878BE00CF1CF2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E918FBC72718BDD000CF1CF2 /* FlagNames.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FlagNames.plist; sourceTree = "<group>"; };
+		E918FBC92719DCBE00CF1CF2 /* CountryNameCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryNameCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				E918FBAC27186E1D00CF1CF2 /* AppDelegate.swift */,
 				E918FBAE27186E1D00CF1CF2 /* SceneDelegate.swift */,
 				E918FBB027186E1D00CF1CF2 /* ViewController.swift */,
-				E918FBB227186E1D00CF1CF2 /* Main.storyboard */,
+				E918FBC92719DCBE00CF1CF2 /* CountryNameCellTableViewCell.swift */,
+				E918FBC0271878BE00CF1CF2 /* DetailViewController.swift */,
 				E918FBB527186E1F00CF1CF2 /* Assets.xcassets */,
+				E918FBB227186E1D00CF1CF2 /* Main.storyboard */,
 				E918FBB727186E1F00CF1CF2 /* LaunchScreen.storyboard */,
 				E918FBBA27186E1F00CF1CF2 /* Info.plist */,
+				E918FBC72718BDD000CF1CF2 /* FlagNames.plist */,
 			);
 			path = WorldFlags;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 				E918FBB927186E1F00CF1CF2 /* LaunchScreen.storyboard in Resources */,
 				E918FBB627186E1F00CF1CF2 /* Assets.xcassets in Resources */,
 				E918FBB427186E1D00CF1CF2 /* Main.storyboard in Resources */,
+				E918FBC82718BDD000CF1CF2 /* FlagNames.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +150,9 @@
 			files = (
 				E918FBB127186E1D00CF1CF2 /* ViewController.swift in Sources */,
 				E918FBAD27186E1D00CF1CF2 /* AppDelegate.swift in Sources */,
+				E918FBCA2719DCBE00CF1CF2 /* CountryNameCellTableViewCell.swift in Sources */,
 				E918FBAF27186E1D00CF1CF2 /* SceneDelegate.swift in Sources */,
+				E918FBC1271878BE00CF1CF2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
